@@ -1796,3 +1796,7 @@ typedef NS_ENUM(NSUInteger, DYEdgeMode) {
 // 顶栏选中指示线
 @interface AWEFeedMultiTabSelectedContainerView : UIView
 @end
+// 拍同款入口
+@interface AWEQuickStoryStickerIconViewController : UIViewController
+@property (nonatomic, strong) UIImageView *stickerIcon;
+@end
